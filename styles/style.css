@@ -82,7 +82,6 @@ nav > ul > li > a:hover {
     height: 50px;
     background-color: rgb(255, 173, 173, 0.5)
 }
-
 /* End of Nav */
 
 
@@ -99,7 +98,6 @@ nav > ul > li > a:hover {
     float: left;
     padding: 2em;
 }
-
 /* End of Section 1 */
 
 
@@ -124,14 +122,15 @@ nav > ul > li > a:hover {
 }
 /* End of Section 2 */
 
-
-/* Section 3 */
-/* End of Section 3 */
-
-
-/* Section 4 */
-/* End of Section 4 */
-
-
 /* Footer */
+footer {
+    width: 100%;
+    height: 45px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(245, 85, 85,0.5);
+    font-family: 'Barlow', sans-serif;
+}
 /* End of Footer */

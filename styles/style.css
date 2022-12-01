@@ -101,6 +101,15 @@ nav > ul > li > a:hover {
 
 
 /* Section 2 */
+#section-2 h2 {
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Teko', sans-serif;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    background-color: rgb(229, 246, 255);
+}
 /* End of Section 2 */
 
 

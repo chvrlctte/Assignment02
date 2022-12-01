@@ -88,10 +88,15 @@ nav > ul > li > a:hover {
 
 
 /* Section Defaults */
+
 /* End of Section Defaults */
 
 
 /* Section 1 */
+#section-1 figure {
+    float: left;
+
+}
 /* End of Section 1 */
 
 

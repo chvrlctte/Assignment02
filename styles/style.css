@@ -12,7 +12,6 @@
 html, body, header, main, section {
     height: 75%;
     width: 100%;
-    scroll-behavior: smooth;
 }
 /* End of Defaults */
 

@@ -9,7 +9,7 @@
 
 
 /* Defaults */
-html, body, header, main, section {
+html, body, header, main, section{
     height: 75%;
     width: 100%;
 }
@@ -94,8 +94,9 @@ nav > ul > li > a:hover {
 /* Section 1 */
 #section-1 figure {
     float: left;
-
+    padding: 2em;
 }
+
 /* End of Section 1 */
 
 
@@ -107,7 +108,16 @@ nav > ul > li > a:hover {
     font-family: 'Teko', sans-serif;
     padding-top: 1em;
     padding-bottom: 1em;
-    background-color: rgb(229, 246, 255);
+    background-color: rgb(51, 47, 238,0.20)
+}
+
+#section-2 p {
+    font-size: 20pt;
+    font-family: 'Wire One', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding: 1em;
+    background-color: rgb(51, 47, 238,0.40);
 }
 /* End of Section 2 */
 

@@ -17,6 +17,12 @@ html, body, header, main, section{
 
 
 /* Header */
+header {
+    background-image: url(../images/supradrift.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 50%;
+}
 /* End of Header */
 
 
@@ -60,14 +66,71 @@ nav > ul > li > a:hover {
 
 
 /* Section Defaults */
+.about-header-titles> h1 {
+    font-size: 2.1em;
+    font-weight: bold;
+    text-align: center;
+    padding: 1em;
+    color: #fff;
+    background-color: rgb(245, 85, 85,0.7);
+    font-family: 'Faster One', cursive;
+    text-shadow: 4px 4px rgba(0, 0, 0, 0.75);
+}
+
+.about-header-titles > p {
+    background-color: rgb(245, 85, 85,0.4);
+    text-align: center;
+    font-size: 20pt;
+    height: 40px;
+    width: 100%;
+    padding: 1em;
+    font-family: 'Teko', sans-serif;
+}
+
+.about-sections:nth-child(odd) {
+    background-color: rgb(245, 85, 85,0.7);
+}
+
+.about-sections:nth-child(even){
+    background-color: rgb(31, 120, 254,0.3)
+}
 /* End of Section Defaults */
 
 
 /* Section 1 */
+#section-1 h2 {
+    font-size: 20pt;
+    text-align: center;
+}
+
+#section-1 ul {
+    text-align: center;
+}
 /* End of Section 1 */
 
 
 /* Section 2 */
+#section-2 table {
+    margin: 1.2em;
+    float: left;
+    border: 1px solid #ccc;
+}
+
+#section-2 th {
+    font-size: 1.2em;
+}
+
+#section-2 th, tfoot > tr {
+    background-color: rgb(245, 85, 85,0.7);
+    color: #fff;
+    font-weight: bold;
+}
+
+#section-2 th, td {
+    border: 1px solid #333;
+    padding: 1.2em;
+    text-align: center;
+}
 /* End of Section 2 */
 
 /* Footer */

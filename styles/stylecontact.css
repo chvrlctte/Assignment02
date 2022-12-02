@@ -9,12 +9,20 @@
 
 
 /* Defaults */
-
+html, body, header, main, section{
+    height: 75%;
+    width: 100%;
+}
 /* End of Defaults */
 
 
 /* Header */
-
+header {
+    background-image: url(../images/supramean.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 50%;
+}
 /* End of Header */
 
 
@@ -62,6 +70,10 @@ nav > ul > li > a:hover {
 
 
 /* Section 1 */
+#section-1 h1 {
+    text-align: center;
+
+}
 /* End of Section 1 */
 
 

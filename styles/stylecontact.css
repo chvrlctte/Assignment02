@@ -76,6 +76,26 @@ nav > ul > li > a:hover {
     font-size: 30pt;
     background-color: rgb(42, 127, 255,0.3)
 }
+
+#section-1 ul {
+    text-align: center;
+    padding: 0.5em;
+}
+
+button {
+    color: #fff;
+    background-color: rgb(42, 127, 255,0.3);
+    text-decoration: none;
+    border-color: rgb(42, 127, 255,0.3);
+    padding: 0.2em;
+    margin: 0.5em;
+}
+
+button > ul > li > a:hover {
+    transition: 0.5s;
+    height: 50px;
+    background-color: rgb(42, 127, 255,0.3)
+}
 /* End of Section 1 */
 
 

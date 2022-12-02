@@ -10,7 +10,7 @@
 
 /* Defaults */
 html, body, header, main, section{
-    height: 75%;
+    height: 50%;
     width: 100%;
 }
 /* End of Defaults */
@@ -63,6 +63,11 @@ nav > ul > li > a:hover {
 
 
 /* Section 1 */
+main > h1 {
+    font-family: 'Faster One', cursive;
+    text-align: center;
+    font-size: 35pt;
+}
 /* End of Section 1 */
 
 

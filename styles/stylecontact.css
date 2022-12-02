@@ -80,6 +80,8 @@ nav > ul > li > a:hover {
 #section-1 ul {
     text-align: center;
     padding: 0.5em;
+    background-color: rgb(42, 127, 255,0.5)
+
 }
 
 button {

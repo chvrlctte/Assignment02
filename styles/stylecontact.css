@@ -102,14 +102,57 @@ button > ul > li > a:hover {
 
 
 /* Section 2 */
+legend {
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 25pt;
+}
 #section-2 h2 {
     text-align: center;
     font-family: 'Faster One', cursive;
     font-size: 30pt;
     background-color: rgb(42, 127, 255,0.3)
 }
+
+form {
+    width: 45%;
+    margin: 0 auto;
+    padding: 2em;
+    border: 1px solid rgb(198, 32, 32);
+    border-radius: 5px;
+    background-color:rgb(229, 243, 255);
+}
+
+.form-group {
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+.form-group > label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: .5em;
+}
+
+.form-group > input {
+    width: 100%;
+    height: 40px;
+    border-radius: 6px;
+    padding: 0 1em;
+}
+
 /* End of Section 2 */
 
 /* Footer */
-
+footer {
+    width: 100%;
+    height: 45px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(245, 85, 85,0.5);
+    font-family: 'Barlow', sans-serif;
+    font-weight: bold;
+}
 /* End of Footer */

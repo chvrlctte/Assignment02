@@ -114,6 +114,9 @@ nav > ul > li > a:hover {
 
 
 /* Section 2 */
+table {
+    padding: 0 auto;
+}
 #section-2 h2 {
     text-align: center;
     font-size: 35pt;
@@ -121,7 +124,7 @@ nav > ul > li > a:hover {
 }
 
 #section-2 table {
-    margin: 2em;
+    margin: 0 auto;
     border: 1px solid #ccc;
 }
 

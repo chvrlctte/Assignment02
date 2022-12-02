@@ -114,12 +114,12 @@ nav > ul > li > a:hover {
 
 
 /* Section 2 */
-
 #section-2 h2 {
     text-align: center;
     font-size: 35pt;
     font-family: 'Bebas Neue', cursive;
 }
+
 #section-2 table {
     margin: 2em;
     border: 1px solid #ccc;
@@ -137,9 +137,10 @@ nav > ul > li > a:hover {
 }
 
 #section-2 th, td {
-    border: 1px solid #333;
+    border: 1px solid rgb(229, 165, 165);
     padding: 1em;
     text-align: center;
+    align-content: center;
 }
 /* End of Section 2 */
 
@@ -152,7 +153,37 @@ nav > ul > li > a:hover {
 
 #section-3 ul {
     text-align: center;
+    font-family: 'Wire One', sans-serif;
+    font-size: 20pt;
+    font-weight: bold;
 }
 /* End of Section 3 */
+
+/* Section 4 */
+#section-4 h2 {
+    text-align: center;
+    font-size: 35pt;
+    font-family: 'Bebas Neue', cursive;
+}
+
+#section-4 h3 {
+    text-align: center;
+}
+/* End of Section 4 */
+
+/* Section 5 */
+#section-5 h2 {
+    text-align: center;
+    font-size: 35pt;
+    font-family: 'Bebas Neue', cursive;
+}
+
+#section-5 h3 {
+    text-align: center;
+    font-family: 'Barlow', sans-serif;
+    font-weight: bold;
+    font-size: 15pt;
+}
+/* End of Section 5 */
 /* Footer */
 /* End of Footer */

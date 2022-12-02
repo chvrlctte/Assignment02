@@ -141,6 +141,14 @@ form {
     padding: 0 1em;
 }
 
+form button {
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    background-color: rgb(198, 32, 32,0.5);
+    border-radius: 6px;
+    color: #fff;
+}
+
 /* End of Section 2 */
 
 /* Footer */

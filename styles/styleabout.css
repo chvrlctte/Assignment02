@@ -189,10 +189,18 @@ nav > ul > li > a:hover {
 
 #section-5 h3 {
     text-align: center;
-    font-family: 'Barlow', sans-serif;
+    font-family: 'Teko', sans-serif;
     font-weight: bold;
+    font-size: 20pt;
+}
+
+#section-5 p {
+    text-align: center;
+    font-family: 'Barlow', sans-serif;
     font-size: 15pt;
+    font-weight: bold;
 }
 /* End of Section 5 */
+
 /* Footer */
 /* End of Footer */

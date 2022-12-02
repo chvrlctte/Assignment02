@@ -72,7 +72,9 @@ nav > ul > li > a:hover {
 /* Section 1 */
 #section-1 h1 {
     text-align: center;
-
+    font-family: 'Faster One', cursive;
+    font-size: 30pt;
+    background-color: rgb(42, 127, 255,0.3)
 }
 /* End of Section 1 */
 

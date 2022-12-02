@@ -99,17 +99,27 @@ nav > ul > li > a:hover {
 
 /* Section 1 */
 #section-1 h2 {
-    font-size: 20pt;
+    font-size: 35pt;
     text-align: center;
+    font-family: 'Bebas Neue', cursive;
 }
 
 #section-1 ul {
     text-align: center;
+    font-family: 'Wire One', sans-serif;
+    font-size: 20pt;
+    font-weight: bold;
 }
 /* End of Section 1 */
 
 
 /* Section 2 */
+#section-2 h2 {
+    text-align: center;
+    font-size: 35pt;
+    font-family: 'Bebas Neue', cursive;
+
+}
 #section-2 table {
     margin: 1.2em;
     float: left;

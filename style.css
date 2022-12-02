@@ -1,0 +1,144 @@
+/* Reset */
+@import url(./reset.css);
+/* End of Reset */
+
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100&family=Bebas+Neue&family=Faster+One&family=Teko&family=Wire+One&display=swap');
+/* End of Fonts */
+
+
+/* Defaults */
+html, body, header, main, section{
+    height: 75%;
+    width: 100%;
+}
+/* End of Defaults */
+
+
+/* Header */
+header {
+    background-image: url(../images/drift.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+button {
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20pt;
+    background-color: rgb(245, 85, 85,0.4);
+}
+
+.header-titles {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 4px 4px rgba(0, 0, 0, 0.75);
+    color: #fff;
+}
+
+.header-titles > h1 {
+    font-family: 'Faster One', cursive;
+    font-size: 55pt;
+}
+
+.header-titles > h2 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 32pt;
+    color: rgb(212, 240, 255)
+}
+/* End of Header */
+
+
+/* Nav */
+nav {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(245, 85, 85,0.4);
+}
+
+nav > ul {
+    list-style: none;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav > ul > li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Barlow', sans-serif;
+}
+
+nav > ul > li > a {
+    color: #fff;
+    text-decoration: none;
+    height: 50px;
+    display: flex;
+    padding: 1.5em;
+    border-radius: 0.5em;
+}
+
+nav > ul > li > a:hover {
+    transition: 0.5s;
+    height: 50px;
+    background-color: rgb(255, 173, 173, 0.5)
+}
+/* End of Nav */
+
+
+/* Section Defaults */
+.header-titles > figure > img {
+    height: 75%;
+    width: 100%;
+}
+/* End of Section Defaults */
+
+
+/* Section 1 */
+#section-1 figure {
+    float: left;
+    padding: 2em;
+}
+/* End of Section 1 */
+
+
+/* Section 2 */
+#section-2 h2 {
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Teko', sans-serif;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    background-color: rgb(42, 127, 255,0.5)
+}
+
+#section-2 p {
+    font-size: 20pt;
+    font-family: 'Wire One', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding: 1em;
+    background-color: rgb(42, 127, 255,0.3);
+}
+/* End of Section 2 */
+
+/* Footer */
+footer {
+    width: 100%;
+    height: 45px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(245, 85, 85,0.5);
+    font-family: 'Barlow', sans-serif;
+    font-weight: bold;
+}
+/* End of Footer */
